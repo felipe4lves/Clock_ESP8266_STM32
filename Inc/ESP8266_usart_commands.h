@@ -12,7 +12,7 @@
 #define AT 						"AT\r\n" //Verify if the esp8266 is active and working
 #define ATE 					"ATE0\r\n" //disable echo command in usart (Disabilita a opção de eco no esp8266)
 #define ATCWMODE_CUR			"AT+CWMODE_CUR=1\r\n"
-#define ATCWJAP_CUR				"AT+CWJAP_CUR=\"rede_heleno\",\"_LazG*$3M+24X@p]\"\r\n"
+#define ATCWJAP_CUR				"AT+CWJAP_CUR=\"wifi_network\",\"_LazG*$3M+24X@p]\"\r\n"
 #define ATCIPSTART				"AT+CIPSTART=\"UDP\",\"a.st1.ntp.br\",123\r\n"
 #define ATCIPSEND				"AT+CIPSEND=48\r\n"
 #define ATCIPCLOSE				"AT+CIPCLOSE\r\n"
